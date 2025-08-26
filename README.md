@@ -11,7 +11,7 @@ This repository accompanies the paper:
 
 ---
 
-## ✨ Highlights
+## Key Contributions
 - **2.5D Input Strategy**: Three adjacent axial MRI slices are stacked as input, capturing partial volumetric context while keeping computation efficient.
 - **Cross-Slice Attention (CSA)**: Pixel-wise softmax normalization across slices at each spatial location for fine-grained inter-slice modeling.
 - **Attention Gating (AG)**: Skip-level gating modules refine intra-slice features by suppressing irrelevant background.
