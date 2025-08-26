@@ -20,7 +20,7 @@ This repository accompanies the paper:
 
 ---
 
-## 🗂️ Dataset Structure
+## Dataset Structure
 
 Organize your dataset into separate directories for **train** and **val**.  
 Each directory must contain `images/` and `masks/` subfolders with matching PNG files:
@@ -45,7 +45,7 @@ dataset_root/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/your-username/xag-net.git
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Training
+## Training
 
 ```bash
 python -m xagnet.train \
@@ -85,7 +85,7 @@ Models and plots are saved in `outputs/`:
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 To evaluate, load a saved model manually:
 
@@ -101,7 +101,7 @@ model = tf.keras.models.load_model("outputs/xagnet_unet_best.h5",
 
 ---
 
-## 📈 Results (from the ACDSA paper)
+## Results (from the ACDSA paper)
 
 On femur MRI datasets:
 
@@ -112,7 +112,7 @@ On femur MRI datasets:
 
 ---
 
-## 📄 Citation
+## Citation
 
 If you use this code or paper, please cite:
 
