@@ -16,7 +16,7 @@ This repository accompanies the paper:
 - **Cross-Slice Attention (CSA)**: Pixel-wise softmax normalization across slices at each spatial location for fine-grained inter-slice modeling.
 - **Attention Gating (AG)**: Skip-level gating modules refine intra-slice features by suppressing irrelevant background.
 - **Combined Loss**: Dice + Boundary loss for robust overlap and edge alignment.
-- **Accuracy**: Achieves Dice ≈ **0.95**, surpassing 2D, 2.5D, and 3D baselines while using fewer FLOPs.
+- **Accuracy**: Achieves Dice ≈ **0.95**, surpassing 2D, 2.5D, and 3D baselines while using fewer FLOPs in femur MRI segmentation. 
 
 ---
 
